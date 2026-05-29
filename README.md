@@ -3,7 +3,6 @@
 [<img alt="github" src="https://img.shields.io/badge/github-matthewjberger/egui--thematic-8da0cb?style=for-the-badge&labelColor=555555&logo=github" height="20">](https://github.com/matthewjberger/egui-thematic)
 [<img alt="crates.io" src="https://img.shields.io/crates/v/egui-thematic.svg?style=for-the-badge&color=fc8d62&logo=rust" height="20">](https://crates.io/crates/egui-thematic)
 [<img alt="docs.rs" src="https://img.shields.io/badge/docs.rs-egui--thematic-66c2a5?style=for-the-badge&labelColor=555555&logo=docs.rs" height="20">](https://docs.rs/egui-thematic)
-[<img alt="build status" src="https://img.shields.io/github/actions/workflow/status/matthewjberger/egui-thematic/rust.yml?branch=main&style=for-the-badge" height="20">](https://github.com/matthewjberger/egui-thematic/actions?query=branch%3Amain)
 
 A theme editor and configuration system for [egui](https://github.com/emilk/egui) applications with live preview, preset management, random theme generation, and persistence.
 
