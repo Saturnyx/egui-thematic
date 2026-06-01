@@ -15,9 +15,6 @@ edition = "2021"
 rust-version = "1.90.0"
 readme = "README.md"
 
-[workspace]
-members = ["demo"]
-
 [dependencies]
 egui = "0.34.2"
 serde = { version = "1.0", features = ["derive"] }
