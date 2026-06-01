@@ -1,6 +1,6 @@
 use egui::{Color32, Visuals};
 
-#[derive(serde::Serialize, serde::Deserialize, Clone, Debug)]
+#[derive(serde::Serialize, serde::Deserialize, Clone, Debug, PartialEq)]
 pub struct ThemeConfig {
     pub name: String,
     pub dark_mode: bool,
