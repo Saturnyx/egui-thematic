@@ -816,7 +816,7 @@ impl ThemeConfig {
             override_window_fill: Some([26, 27, 38, 255]), // bg #1a1b26
             override_window_stroke_color: Some([59, 66, 97, 255]), // border #3b4261
             override_window_stroke_width: Some(1.0),
-            override_window_corner_radius: Some(8),
+            override_window_corner_radius: Some(6),
             override_window_shadow_size: Some(20),
 
             override_panel_fill: Some([21, 22, 30, 255]), // bg_dark #15161e
@@ -831,7 +831,7 @@ impl ThemeConfig {
             override_widget_noninteractive_weak_bg_fill: Some([31, 35, 53, 255]), // sidebar
             override_widget_noninteractive_bg_stroke_color: Some([59, 66, 97, 255]), // border
             override_widget_noninteractive_bg_stroke_width: Some(1.0),
-            override_widget_noninteractive_corner_radius: Some(8),
+            override_widget_noninteractive_corner_radius: Some(6),
             override_widget_noninteractive_fg_stroke_color: Some([86, 95, 137, 255]), // comment
             override_widget_noninteractive_fg_stroke_width: Some(1.0),
             override_widget_noninteractive_expansion: Some(0.0),
@@ -841,7 +841,7 @@ impl ThemeConfig {
             override_widget_inactive_weak_bg_fill: Some([36, 40, 59, 255]),
             override_widget_inactive_bg_stroke_color: Some([59, 66, 97, 255]), // border
             override_widget_inactive_bg_stroke_width: Some(1.0),
-            override_widget_inactive_corner_radius: Some(8),
+            override_widget_inactive_corner_radius: Some(6),
             override_widget_inactive_fg_stroke_color: Some([169, 177, 214, 255]), // terminal_white
             override_widget_inactive_fg_stroke_width: Some(1.5),
             override_widget_inactive_expansion: Some(0.0),
@@ -851,7 +851,7 @@ impl ThemeConfig {
             override_widget_hovered_weak_bg_fill: Some([50, 57, 85, 255]),
             override_widget_hovered_bg_stroke_color: Some([122, 162, 247, 255]), // blue
             override_widget_hovered_bg_stroke_width: Some(1.0),
-            override_widget_hovered_corner_radius: Some(8),
+            override_widget_hovered_corner_radius: Some(6),
             override_widget_hovered_fg_stroke_color: Some([192, 202, 245, 255]), // fg
             override_widget_hovered_fg_stroke_width: Some(1.5),
             override_widget_hovered_expansion: Some(1.0),
@@ -861,7 +861,7 @@ impl ThemeConfig {
             override_widget_active_weak_bg_fill: Some([86, 120, 200, 255]),
             override_widget_active_bg_stroke_color: Some([125, 207, 255, 255]), // cyan #7dcfff
             override_widget_active_bg_stroke_width: Some(1.0),
-            override_widget_active_corner_radius: Some(8),
+            override_widget_active_corner_radius: Some(6),
             override_widget_active_fg_stroke_color: Some([26, 27, 38, 255]), // bg (inverted)
             override_widget_active_fg_stroke_width: Some(2.0),
             override_widget_active_expansion: Some(1.0),
@@ -871,7 +871,7 @@ impl ThemeConfig {
             override_widget_open_weak_bg_fill: Some([41, 46, 66, 255]), // line_highlight
             override_widget_open_bg_stroke_color: Some([122, 162, 247, 255]), // blue
             override_widget_open_bg_stroke_width: Some(1.0),
-            override_widget_open_corner_radius: Some(8),
+            override_widget_open_corner_radius: Some(6),
             override_widget_open_fg_stroke_color: Some([192, 202, 245, 255]),
             override_widget_open_fg_stroke_width: Some(1.5),
             override_widget_open_expansion: Some(0.0),
@@ -907,7 +907,7 @@ impl ThemeConfig {
             override_window_fill: Some([30, 30, 46, 255]), // Base    #1e1e2e
             override_window_stroke_color: Some([69, 71, 90, 255]), // Surface1 #45475a
             override_window_stroke_width: Some(1.0),
-            override_window_corner_radius: Some(8),
+            override_window_corner_radius: Some(6),
             override_window_shadow_size: Some(20),
 
             override_panel_fill: Some([24, 24, 37, 255]), // Mantle #181825
@@ -922,7 +922,7 @@ impl ThemeConfig {
             override_widget_noninteractive_weak_bg_fill: Some([24, 24, 37, 255]), // Mantle
             override_widget_noninteractive_bg_stroke_color: Some([49, 50, 68, 255]), // Surface0
             override_widget_noninteractive_bg_stroke_width: Some(1.0),
-            override_widget_noninteractive_corner_radius: Some(8),
+            override_widget_noninteractive_corner_radius: Some(6),
             override_widget_noninteractive_fg_stroke_color: Some([108, 112, 134, 255]), // Overlay0
             override_widget_noninteractive_fg_stroke_width: Some(1.0),
             override_widget_noninteractive_expansion: Some(0.0),
@@ -932,7 +932,7 @@ impl ThemeConfig {
             override_widget_inactive_weak_bg_fill: Some([41, 42, 57, 255]),
             override_widget_inactive_bg_stroke_color: Some([69, 71, 90, 255]), // Surface1
             override_widget_inactive_bg_stroke_width: Some(1.0),
-            override_widget_inactive_corner_radius: Some(8),
+            override_widget_inactive_corner_radius: Some(6),
             override_widget_inactive_fg_stroke_color: Some([186, 194, 222, 255]), // Subtext1
             override_widget_inactive_fg_stroke_width: Some(1.5),
             override_widget_inactive_expansion: Some(0.0),
@@ -942,7 +942,7 @@ impl ThemeConfig {
             override_widget_hovered_weak_bg_fill: Some([58, 60, 78, 255]),
             override_widget_hovered_bg_stroke_color: Some([203, 166, 247, 255]), // Mauve
             override_widget_hovered_bg_stroke_width: Some(1.0),
-            override_widget_hovered_corner_radius: Some(8),
+            override_widget_hovered_corner_radius: Some(6),
             override_widget_hovered_fg_stroke_color: Some([205, 214, 244, 255]), // Text
             override_widget_hovered_fg_stroke_width: Some(1.5),
             override_widget_hovered_expansion: Some(1.0),
@@ -952,7 +952,7 @@ impl ThemeConfig {
             override_widget_active_weak_bg_fill: Some([110, 150, 210, 255]),
             override_widget_active_bg_stroke_color: Some([203, 166, 247, 255]), // Mauve
             override_widget_active_bg_stroke_width: Some(1.0),
-            override_widget_active_corner_radius: Some(8),
+            override_widget_active_corner_radius: Some(6),
             override_widget_active_fg_stroke_color: Some([30, 30, 46, 255]), // Base (inverted)
             override_widget_active_fg_stroke_width: Some(2.0),
             override_widget_active_expansion: Some(1.0),
@@ -962,7 +962,7 @@ impl ThemeConfig {
             override_widget_open_weak_bg_fill: Some([69, 71, 90, 255]), // Surface1
             override_widget_open_bg_stroke_color: Some([203, 166, 247, 255]), // Mauve
             override_widget_open_bg_stroke_width: Some(1.0),
-            override_widget_open_corner_radius: Some(8),
+            override_widget_open_corner_radius: Some(6),
             override_widget_open_fg_stroke_color: Some([205, 214, 244, 255]), // Text
             override_widget_open_fg_stroke_width: Some(1.5),
             override_widget_open_expansion: Some(0.0),
